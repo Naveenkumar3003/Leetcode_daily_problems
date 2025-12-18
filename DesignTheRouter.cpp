@@ -4,7 +4,7 @@ private:
     unordered_map<long long, vector<int>> packets;
     unordered_map<int, vector<int>> counts;
     queue<long long> q;
-
+  
     long long encode(int source, int destination, int timestamp) {
         return ((long long)source << 40) | ((long long)destination << 20) | timestamp;
     }
