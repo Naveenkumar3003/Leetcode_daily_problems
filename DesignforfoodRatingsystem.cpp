@@ -15,7 +15,7 @@ public:
             cuisineTofood[cuisine].insert({-rating,food});
         }
     }
-    
+       
     void changeRating(string food, int newRating) {
         string cuisine=foodToCuisines[food];
         int oldrating=foodToRating[food];
